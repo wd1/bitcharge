@@ -73,7 +73,7 @@ gem 'rest-client', '~> 1.6.8'
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker', '~> 1.4.3'
-  gem 'mina'
+  gem 'mina' 
   gem 'mina-slack', github: 'peatio/mina-slack'
   gem 'meta_request'
   gem 'better_errors'

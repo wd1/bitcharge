@@ -4,11 +4,11 @@ require 'mina/git'
 require 'mina/rbenv'
 require 'mina/slack/tasks'
 
-set :repository, 'https://github.com/peatio/peatio.git'
-set :user, 'deploy'
-set :deploy_to, '/home/deploy/peatio'
+set :repository, 'https://github.com/wd1/bitcharge.git'
+set :user, 'root'
+set :deploy_to, '/root/bitcharge/current'
 set :branch, 'master'
-set :domain, 'demo.peatio.com'
+set :domain, 'srco.in'
 
 set :shared_paths, [
   'config/database.yml',
